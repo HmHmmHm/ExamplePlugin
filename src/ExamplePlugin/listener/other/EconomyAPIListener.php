@@ -30,10 +30,10 @@ class EconomyAPIListener implements Listener {
 	// TODO 아래이벤트를 정의하지 않는다면 모두 지우셔도 됩니다
 	// -------------------------------------------------------------
 	public function onAddMoneyEvent(AddMoneyEvent $event) {
-		// TODO 유저에게 돈울 추가될때 이 곳에 정의된 작업실행
+		// TODO 유저에게 돈을 추가될때 이 곳에 정의된 작업실행
 	}
 	public function onReduceMoneyEvent(ReduceMoneyEvent $event) {
-		// TODO 유저에게 돈울 뺏을때 이 곳에 정의된 작업실행
+		// TODO 유저에게 돈을 뺏을때 이 곳에 정의된 작업실행
 	}
 	public function onSetMoneyEvent(SetMoneyEvent $event) {
 		// TODO 유저의 돈을 설정했을때 정의된 작업실행
